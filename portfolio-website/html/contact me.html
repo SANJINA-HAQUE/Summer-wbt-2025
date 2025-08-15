@@ -27,8 +27,8 @@
 
         <div class="divider"></div>-->
         
-         <div class="right-side">
-        <form method="get">
+        <div class="right-side">
+        <form method="get" action="login.html">
             <h3>Fill up the Form</h3>
 
             <label>First name:</label>
@@ -41,30 +41,30 @@
             <input type="email" name="email" required><br><br>
 
             <label>Consulting Date:</label><br>
-            <input type="date"><br><br>
+            <input type="date" name = "date"><br><br>
 
             <label>Reason for contacting:</label><br>
-            <input type="checkbox" required> Project<br>
-            <input type="checkbox"> Thesis<br>
-            <input type="checkbox"> Offer<br>
-            <input type="checkbox"> Meet & Greet<br><br>
+            <input type="checkbox" name = "reason" value = "project" required> Project<br>
+            <input type="checkbox" name = "reason" value = "thesis"> Thesis<br>
+            <input type="checkbox" name = "reason" value = "offer"> Offer<br>
+            <input type="checkbox" name = "reason" value = "meet & greet"> Meet & Greet<br><br>
 
             <label>Services:</label><br>
-            <input type="radio" name="services" required> SEO<br>
-            <input type="radio" name="services"> Web Development<br>
-            <input type="radio" name="services"> Data Analysis<br>
-            <input type="radio" name="services"> Graphics Design<br>
-            <input type="radio" name="services"> Lead Generation<br><br>
+            <input type="radio" name="services" value = "seo" required> SEO<br>
+            <input type="radio" name="services" value = "web development"> Web Development<br>
+            <input type="radio" name="services" value = "data analysis"> Data Analysis<br>
+            <input type="radio" name="services" value = "graphics design"> Graphics Design<br>
+            <input type="radio" name="services" value = "lead generatin"> Lead Generation<br><br>
 
             <label>Are you contacting for providing job?:</label>
-            <select>
+            <select name = "job">
                 <option value="enter">Enter</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select><br><br>
 
             <label>Your position in your company:</label>
-            <select>
+            <select name = "position">
                 <option value="enter">Enter</option>
                 <option value="ceo">CEO</option>
                 <option value="hr">HR</option>
